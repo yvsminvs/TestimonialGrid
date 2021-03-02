@@ -164,6 +164,12 @@ img{
     .container5{
         grid-area: 1 / 4 / 3 / 5;
     }
-
+    .card p{
+        font-size:13.5px;
+        line-height: 20px;
+    }
+    .card h3{
+        font-size:18.5px;
+    }
 
 }
