@@ -36,7 +36,17 @@ body{
     padding:30px;   
     margin-bottom: 25px;
     box-shadow: 0 0.8rem 1rem hsla(234, 52%, 32%, 0.158);
+    
+   
+    
 }
+
+@media screen and (max-width:1200px){
+    .card{
+        max-width: 400px;
+    }    
+}
+
 
 .card h1{
     font-size: 12px;
@@ -86,7 +96,7 @@ body{
     opacity: 70%;
 }
 
-.head{
+.flex-container{
     display: flex;
     align-items: center;
     gap:20px
@@ -133,7 +143,7 @@ img{
     text-decoration: none; 
 }
 
-@media screen and (min-width:1250px){
+@media screen and (min-width:1200px){
 
     body{
         padding:160px;
